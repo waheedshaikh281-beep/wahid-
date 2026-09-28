@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#c7dbecb2;color:#4f96f3}
+header{background:#9dafda;color:#fff;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+header h1{margin:0}nav{display:flex;gap:7px;flex-wrap:wrap}button{border:0;border-radius:7px;padding:9px 13px;background:#0a2869;color:#778bb6;cursor:pointer}
+.container{max-width:1100px;margin:25px auto;padding:0 18px}.hero{background:#8dbcfa;padding:30px;border-radius:15px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.card,.summary{background:oklch(66.156% 0.20769 24.837);padding:18px;border-radius:13px;box-shadow:0 2px 10px rgba(34, 17, 17, 0.067)}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.price{font-size:20px;font-weight:bold}
+.input{width:100%;padding:11px;border:1px solid #5194e7;border-radius:7px;margin:7px 0}.danger{background:#e65252}.secondary{background:#214679}
+.empty{text-align:center;background:#e60606;padding:35px;border-radius:13px}.tag{display:inline-block;background:#e4387a;padding:4px 8px;border-radius:20px;font-size:12px}
+#toast{display:none;position:fixed;right:20px;bottom:20px;background:rgb(110, 120, 170);color:#a02020;padding:12px;border-radius:8px}
